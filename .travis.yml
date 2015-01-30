@@ -11,10 +11,10 @@ before_script:
 
 script: 
   - javac -g SearchResult.java  
-  - javac -g DictionarySearch.java  
+  - javac -g DictionarySort.java  
 
 after_success: 
-  - java -cp . DictionarySearch > solution.txt
+  - java -cp . DictionarySort > solution.txt
   - diff ../output.txt solution.txt > diff.txt
   - cp ../output.txt $HOME/artifacts/output.txt
   - cp solution.txt $HOME/artifacts/solution-${TRAVIS_PULL_REQUEST}.txt
