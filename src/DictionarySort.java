@@ -16,6 +16,7 @@ public class DictionarySort {
 	public static void main(String[] args) throws IOException {
 
 		words = getWords();
+		sortList(words);
 		int interval = 100;
 		String[] find = new String[100];    
 		int index = interval;
