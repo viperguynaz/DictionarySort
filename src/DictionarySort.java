@@ -61,7 +61,7 @@ public class DictionarySort {
 	 * implement a method to sort the ArrayList words
 	 *
 	 */
-	public static void sortList(A) {
+	public static void sortList(ArrayList<String> list) {
 		//TODO
 	}
 
